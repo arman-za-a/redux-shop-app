@@ -1,8 +1,3 @@
-# Project Title
-
-A shop website that is developed with redux
-
-
 ## Run Locally
 
 Clone the project
