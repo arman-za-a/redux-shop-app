@@ -1,0 +1,51 @@
+.accordian {
+    width: 400px;
+    margin: 80px 100px 20px;
+    position: relative;
+}
+.header {
+    color: var(--blue);
+    padding: 20px;
+    border: 1px solid var(--blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header:hover {
+    color: var(--navy-blue);
+}
+.icon, .title {
+    cursor: pointer;
+}
+.title {
+    font-weight: bold;
+}
+.icon, .body {
+    transition: var(--transition);
+}
+.icon, .body {
+    transition: max-height 0.2s ease-out;
+}
+.icon {
+    font-size: 22px;
+    transition: var(--transition);
+}
+.icon:hover {
+    color: var(--navy-blue);
+}
+.down {
+    transform: rotate(0);
+}
+.up {
+    transform: rotate(180deg);
+}
+.body {
+    width: 100%;
+    overflow: hidden;
+}
+.describe {
+    padding: 20px;
+    border: 1px solid var(--blue);
+    border-top: none;
+    font-size: 20px;
+}

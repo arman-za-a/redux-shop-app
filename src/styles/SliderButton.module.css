@@ -1,0 +1,30 @@
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.button {
+    color: #fff;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    transition: var(--transition);
+}
+.button:hover {
+    background-color: var(--navy-blue);
+}
+.active {
+    background-color: var(--blue);
+    pointer-events: auto;
+}
+.deactive {
+    background-color: var(--gray);
+    pointer-events: none;
+}

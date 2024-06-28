@@ -1,0 +1,9 @@
+.container {
+    margin: 90px 100px 50px;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, min-content);
+    justify-content: space-between;
+    row-gap: 50px;
+}

@@ -1,0 +1,21 @@
+.reset {
+    margin: 150px;
+    text-align: right;
+}
+.resetTitle {
+    color: var(--green);
+    margin-bottom: 50px;
+}
+.resetLink {
+    color: #fff;
+    background-color: var(--blue);
+    line-height: 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+.resetLink:hover {
+    background-color: var(--navy-blue);
+}

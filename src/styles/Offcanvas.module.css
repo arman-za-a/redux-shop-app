@@ -1,0 +1,49 @@
+.offcanvas, .screen, .titleContainer, .icon {
+    transition: var(--transition);
+}
+.screen {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 15;
+}
+.dark {
+    background-color: var(--dark);
+    pointer-events: auto;
+}
+.light {
+    background-color: initial;
+    pointer-events: none;
+}
+.offcanvas {
+    background-color: #fff;
+    width: 350px;
+    height: 100vh;
+    padding: 30px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 17;
+}
+.titleContainer {
+    color: var(--blue);
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+.item {
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+.shown {
+    transform: translateX(0);
+}
+.hidden {
+    transform: translateX(-100%);
+}

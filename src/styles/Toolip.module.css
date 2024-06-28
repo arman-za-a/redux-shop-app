@@ -1,0 +1,28 @@
+.toolip {
+    background-color: var(--blue);
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 4px;
+    position: absolute;
+    top: -50px;
+    transition: var(--transition);
+}
+.caretContainer {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.icon {
+    color: var(--blue);
+    font-size: 15px;
+}
+.shown {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+.hidden {
+    opacity: 0;
+    transform: translateY(0);
+}

@@ -1,0 +1,45 @@
+.header {
+    position: sticky;
+    margin-top: 20px;
+    z-index: 8;
+    top: 0;
+}
+.navbar {
+    background-color: #fff;
+    width: 100%;
+    padding: 15px 100px;
+    box-shadow: 0px 5px 24px #959da566;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productsLink {
+    margin-right: 30px;
+    color: var(--blue);
+    border-bottom: 3px solid var(--blue);
+    border-radius: 2px;
+    font-weight: bold;
+    transition: var(--transition);
+}
+.productsLink:hover {
+    color: var(--navy-blue);
+    border-bottom-color: var(--navy-blue);
+}
+.logoContainer {
+    position: relative;
+}
+.counter {
+    color: #fff;
+    background-color: var(--navy-blue);
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -3px;
+    right: 0;
+}

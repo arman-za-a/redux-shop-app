@@ -1,0 +1,46 @@
+.selectMenuContainer {
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selectContainer {
+    display: inline-block;
+    position: relative;
+}
+.select {
+    color: var(--blue);
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid var(--blue);
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+}
+.icon {
+    color: var(--blue);
+    font-size: 18px;
+    position: absolute;
+    top: calc((100% - 18px) / 2);
+    right: 5px;
+    pointer-events: none;
+}
+.button {
+    color: #fff;
+    background-color: var(--blue);
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 
+        #32325d40 0px 4px 12px -2px, 
+        #0000004d 0px 3px 7px -3px;
+    font-size: 15px;
+    display: inline-block;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.button:hover {
+    background-color: var(--navy-blue);
+}

@@ -1,0 +1,21 @@
+.sliderContainer {
+    margin: 0 300px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider {
+    width: var(--slide-dim);
+    overflow: hidden;
+}
+.imagesContainer {
+    position: relative;
+    display: flex;
+    width: fit-content;
+    transition: var(--transition);
+}
+.image {
+    width: var(--slide-dim);
+    height: var(--slide-dim);
+    border-radius: 10px;
+}
